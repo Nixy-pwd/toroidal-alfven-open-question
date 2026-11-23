@@ -9,6 +9,6 @@ To add the two large binary witness arrays that were left out of the connector-b
 3. Run `bash publish.sh`.
 4. Complete GitHub authentication if prompted.
 
-The script clones the existing `main` branch into a temporary directory, synchronizes the complete project tree (including removals), commits any differences, and pushes them. It does not force-push or rewrite the existing history. It requires Git, rsync, and GitHub authentication on the local machine.
+The script clones the existing `main` branch into a temporary directory, synchronizes the complete project tree (including removals), commits any differences, and pushes them. The script itself uses an ordinary push and never force-pushes or rewrites branch history. It requires Git, rsync, and GitHub authentication on the local machine.
 
 The largest individual witness file is approximately 29 MB, below GitHub's usual 100 MB Git-push limit. The two witness files are necessary to reproduce the bounded-energy certificate; see `DATA-AVAILABILITY.md`.
