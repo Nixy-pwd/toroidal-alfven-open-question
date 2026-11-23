@@ -7,7 +7,7 @@ To add the two large binary witness arrays that were left out of the connector-b
 1. Download and unzip the full project bundle.
 2. Open Terminal in the extracted `toroidal-alfven-open-question` directory.
 3. Run `bash publish.sh`.
-4. Complete GitHub authentication if prompted.
+4. Complete GitHub authentication if requested.
 
 The script clones the existing `main` branch into a temporary directory, synchronizes the complete project tree (including removals), commits any differences, and pushes them. The script itself uses an ordinary push and never force-pushes or rewrites branch history. It requires Git, rsync, and GitHub authentication on the local machine.
 
