@@ -1,0 +1,16 @@
+finite verification 48 False cols 1615 largest row 125 guard 2 trial pivot margin 2358.5646768538513
+certified 48 False H-T >= 2286 I physical test norm <= 5738356
+finite verification 96 True cols 6631 largest row 125 guard 2 trial pivot margin 448.90229762875026
+certified 96 True H-T >= 434 I physical test norm <= 1616657856
+finite verification 48 False cols 1615 largest row 125 guard 2 trial pivot margin 2358.5605424859705
+certified 48 False H-T >= 2286 I physical test norm <= 5738356
+finite verification 96 True cols 6631 largest row 125 guard 2 trial pivot margin 161.65874676407793
+certified 96 True H-T >= 155 I physical test norm <= 1616657856
+finite verification 48 False cols 1615 largest row 125 guard 2 trial pivot margin 2358.6214552875904
+certified 48 False H-T >= 2286 I physical test norm <= 5738356
+finite verification 96 True cols 6631 largest row 125 guard 2 trial pivot margin 960.5487531179699
+certified 96 True H-T >= 930 I physical test norm <= 1616657856
+continuous lower bound: 8029/176283067048 approximately 4.5546064828868614e-08
+uniform exclusion at energy <= 2492 for |frequency - 0.41491| <= 0.00000005
+uniform lower bound on [0.41490985, 0.41491200]: 5735/352566134096 approximately 1.6266451724595933e-08
+necessary exact mode energy at center >= 2584.301165124742

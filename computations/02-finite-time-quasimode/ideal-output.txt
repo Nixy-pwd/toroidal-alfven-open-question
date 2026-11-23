@@ -1,0 +1,3 @@
+gradient energy <= 2492 ; normalized residual <= 89983/10000000000
+Spectral weight in [0.41481,0.41501] at least 4941/50 percent
+Full ideal evolution: at most 10% relative L2 error through 430 whole periods

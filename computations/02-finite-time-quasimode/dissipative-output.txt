@@ -1,0 +1,5 @@
+gradient energy <= 2492 ; normalized residual <= 89983/10000000000
+Normalized full-state curl energy <= 2582
+epsilon 1/100000000 : full dissipative evolution within 10% through 41 whole periods
+epsilon 1/1000000000 : full dissipative evolution within 10% through 177 whole periods
+epsilon 1/10000000000 : full dissipative evolution within 10% through 322 whole periods

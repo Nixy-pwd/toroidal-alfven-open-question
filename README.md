@@ -48,17 +48,17 @@ The residual upper/lower bounds concern a **fixed energy budget**; a small resid
 
 Python 3 is needed; the large lower-bound certificate additionally requires NumPy, SciPy and a C++ compiler supporting 128-bit integers. Follow each source README for full dependencies and caveats.
 
-```sh
+\`\`\`sh
 cd computations/02-finite-time-quasimode
 python3 check_identities.py 210
 python3 consequences.py trial.json
-```
+\`\`\`
 
-```sh
+\`\`\`sh
 cd computations/03-bounded-energy-lower-bound
 python3 check_identities.py 105
 OPENBLAS_NUM_THREADS=2 python3 conclusion.py
-```
+\`\`\`
 
 The latter uses large NPZ witness arrays and may be expensive to run. Exact original ZIP SHA-256 hashes are in [computations/README.md](computations/README.md). The distributed files are **extracted** from the original source archives to permit line-by-line inspection. The two large binary witness arrays are included in the full project bundle; see [DATA-AVAILABILITY.md](DATA-AVAILABILITY.md) for the status of the initial GitHub mirror and the one-step completion procedure.
 
@@ -66,11 +66,11 @@ The latter uses large NPZ witness arrays and may be expensive to run. Exact orig
 
 We are hoping to learn whether any specific result is **correct, previously known, or worth investigating**. Particularly useful responses would identify a flaw, an exact prior theorem, a boundary/domain issue, or a rigorous result settling the circular H¹ question at this precise frequency. Corrections are as valuable as confirmations. Please open an Issue; there is **no request to referee the entire collection**.
 
-## Provenance
+## Origin and scope
 
-An individual with **no formal PDE or MHD background** initiated a curiosity-driven AI mathematics experiment. The human chose the hard question and requested follow-ups; Claude and ChatGPT model variants supplied the mathematical derivations and programs, and AI-assisted comparisons of literature. The research was not undertaken to claim mathematical expertise, a new theorem, or a solution to nonlinear MHD. See [ORIGIN.md](ORIGIN.md) and [STATUS.md](STATUS.md).
+This work began as a curiosity-driven attempt to explore a difficult question in three-dimensional resistive MHD. With AI tools assisting the derivations, computations, code, and literature exploration, the investigation developed into the narrower spectral question documented here. The materials are shared in the hope that they may be useful to researchers working in this area. No solution, priority, or novelty claim is made; the mathematical arguments and computations remain open to independent expert scrutiny. See [ORIGIN.md](ORIGIN.md) and [STATUS.md](STATUS.md).
 
-**Caution:** Some original notes use labels like `VERIFIED` for *within-session* checks. These are not independent specialist review, and the reader should inspect the actual arguments rather than trust the labels.
+**Caution:** Some original notes use labels like \`VERIFIED\` for *within-session* checks. These are not independent specialist review, and the reader should inspect the actual arguments rather than trust the labels.
 
 ## Reuse
 
