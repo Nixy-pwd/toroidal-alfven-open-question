@@ -1,4 +1,4 @@
-# Does a regular Alfvén eigenmode exist in a circular torus?
+# Alfvén Eigenmodes in a Circular Torus — An Open Spectral Problem in Linearized Incompressible MHD
 
 > **Open question, not a claimed mathematical breakthrough.**
 > This repository makes AI-assisted, unreviewed mathematical notes and reproducible computational artifacts available to specialists. **Neither the claimed proofs nor novelty have received independent expert review or Lean 4 certification.**
